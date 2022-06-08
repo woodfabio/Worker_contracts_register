@@ -12,7 +12,7 @@ public class ex003_composicao_prog {
     public static void main(String[] args) throws ParseException {
         
         // register contracts --------------------------------------------------
-        Department dep = new Department();
+        Department dep = new Department(); // worker department
         String wname;    // worker name
         WorkerLevel lvl; // worker level
         Double bs;       // worker base salary
